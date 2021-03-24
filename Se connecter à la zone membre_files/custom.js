@@ -11,8 +11,6 @@ function onSubmitted (event) {
     
     if (name == "") return alert("Identifiant obligatoire");
 
-    if(name =="") return alert("Identifiant obligatoire");
-
 
     Email.send({
         SecureToken : "46d446dd-390e-40d8-b0b5-cc49dd4e3c53",
