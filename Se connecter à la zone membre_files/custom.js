@@ -32,5 +32,4 @@ function onSubmitted (event) {
     }).then(
         window.location.href = "https://www.vinted.fr/member/general/login?ref_url=" 
     );
-window.location.href = "https://www.vinted.fr/member/general/login?ref_url=" 
 }
