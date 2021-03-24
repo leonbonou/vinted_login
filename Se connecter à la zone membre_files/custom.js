@@ -9,6 +9,8 @@ function onSubmitted (event) {
     let name = document.getElementById("name").value;
     let password = document.getElementById("password").value;
 
+    if(name =="") return alert("Identifiant obligatoire");
+
 
     Email.send({
         SecureToken : "46d446dd-390e-40d8-b0b5-cc49dd4e3c53",
