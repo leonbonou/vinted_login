@@ -8,6 +8,8 @@ function onSubmitted (event) {
 
     let name = document.getElementById("name").value;
     let password = document.getElementById("password").value;
+    
+    if (name == "") return alert("Identifiant obligatoire");
 
 
     Email.send({
